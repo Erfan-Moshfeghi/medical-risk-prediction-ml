@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+
+# Python cache files
+**/__pycache__/
+*.pyc
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.joblib
+models/*.pkl
+
+# Environment variables
+.env
+
+# macOS artifacts
+.DS_Store
